@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    background-color: rgb(112, 161, 184);
+}
+
+p {
+    animation: moveanimation;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    transition: ease-in-out;
+    color: rgb(198, 217, 226);
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    margin: 10px;
+    border: 2px solid rgb(81, 116, 124);
+    /* width: 20vw; */
+    background-color: rgb(112, 161, 184);
+    
+}
+
+img {
+    animation: moveanimation;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    transition: ease-in-out;
+    border: 3px solid rgb(69, 112, 167);
+    height: 35vh;
+    width: 20vw;
+    margin: 10px;
+}
+
+h1 {
+    animation: moveanimation;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    transition: ease-in-out;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(38, 110, 110);
+    width: 100%;
+    /* margin: 10px; */
+}
+
+h2 {
+    margin: 10px;
+    padding: 10px;
+    animation: moveanimation;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    transition: ease-in-out;
+    display: flex;
+    margin: 10px;
+    /* justify-content: center; */
+    border: 2px solid rgb(160, 192, 221);
+    width: 20vw;
+    background-color: rgb(156, 211, 221);
+    
+}
+
+footer {
+    background-color: black;
+    height: 10vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes moveanimation {
+    0% {
+        transform: translate(100vw);
+    }
+    
+    100% {
+        transform: translate(0vw);
+    }
+
+}
+img:hover{
+    height: 35.7vh;
+    width: 20.4vw;
+    transition-delay: 0.2s;
+    transition: ease-in;
+    border: 3px solid white;
+
+}
