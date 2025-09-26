@@ -33,21 +33,27 @@ img {
     transition: ease-in-out;
     border: 3px solid rgb(69, 112, 167);
     height: 35vh;
-    width: 20vw;
+    width: auto;
     margin: 10px;
     border-radius: 20px;
+    aspect-ratio: 1 / 1;
+    
 }
 
 h1 {
+    margin: 10px;
+    padding: 10px;
     animation: moveanimation;
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-direction: alternate;
     transition: ease-in-out;
     display: flex;
-    justify-content: center;
-    background-color: rgb(38, 110, 110);
-    width: 100%;
-    /* margin: 10px; */
+    margin: 5px;
+    /* justify-content: center; */
+    border: 2px solid rgb(160, 192, 221);
+    width: auto;
+    background-color: rgb(156, 211, 221);
+    border-radius: 20px;
 }
 
 h2 {
@@ -88,11 +94,12 @@ footer {
 
 }
 img:hover{
-    height: 35.7vh;
+    /* height: 35.7vh;
     width: 20.4vw;
     transition-delay: 0.2s;
-    transition: ease-in;
+    transition: ease-in; */
     border: 3px solid white;
 
 }
+
 
