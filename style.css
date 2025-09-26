@@ -41,6 +41,18 @@ img {
 }
 
 h1 {
+    animation: moveanimation;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    transition: ease-in-out;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(38, 110, 110);
+    width: 100%;
+    /* margin: 10px; */
+}
+
+h2 {
     margin: 10px;
     padding: 10px;
     animation: moveanimation;
@@ -52,22 +64,6 @@ h1 {
     /* justify-content: center; */
     border: 2px solid rgb(160, 192, 221);
     width: auto;
-    background-color: rgb(156, 211, 221);
-    border-radius: 20px;
-}
-
-h2 {
-    margin: 10px;
-    padding: 10px;
-    animation: moveanimation;
-    animation-duration: 2s;
-    animation-direction: alternate;
-    transition: ease-in-out;
-    display: flex;
-    margin: 10px;
-    /* justify-content: center; */
-    border: 2px solid rgb(160, 192, 221);
-    width: 20vw;
     background-color: rgb(156, 211, 221);
     border-radius: 20px;
     
@@ -101,5 +97,6 @@ img:hover{
     border: 3px solid white;
 
 }
+
 
 
